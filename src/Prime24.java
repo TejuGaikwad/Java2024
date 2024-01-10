@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Prime24 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt()
-                ;
+        int n = in.nextInt();
         if(n>1) {
             boolean flag = true;
             for (int i = 2; i <= Math.sqrt(n); i++) {
